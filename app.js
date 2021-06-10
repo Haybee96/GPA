@@ -114,7 +114,7 @@ const getGradesAndPoints = (e) => {
   if (score3Input.value && !isNaN(score3Input.value)) {
     if (score3Input.value >= 75 && score3Input.value <= 100) {
       score3Grade.textContent = "A1";
-      pointLabel2.textContent = "4.00";
+      pointLabel3.textContent = "4.00";
     } else if (score3Input.value >= 70 && score3Input.value <= 74) {
       score3Grade.textContent = "A2";
       pointLabel3.textContent = "3.75";
